@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-finance-bot",
+  "version": "1.0.0",
+  "description": "Personal WhatsApp Finance Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@googleapis/sheets": "^9.0.0",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "exceljs": "^4.4.0",
+    "moment": "^2.30.1",
+    "node-cron": "^4.1.0",
+    "pdfkit": "^0.17.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.32.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
